@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+caption{
+    font-size: 25px;
+}
+.container{
+    margin:0 auto;
+    width: 80%;
+    font-family: 標楷體;
+    border: 2px solid #000;
+}
+
+.container .header{
+    background-color: #c0ede4;
+    width: 100%;
+}
+
+.container .header section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .header section p{
+    padding-left: 2rem;
+}
+
+article{
+    background-color: #eafffc;
+    margin-top: 2px;
+    border-top: 2px solid;
+}
+/* table */
+
+table{
+    border-collapse: collapse;
+    color: black;
+    width: 100%;
+    word-wrap: break-word;
+    table-layout: fixed;  
+}
+
+.crew{
+    font-weight: bold;
+    color: #1f98a3;
+}
+
+.name{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
